@@ -37,5 +37,18 @@
         android:layout_height="wrap_content"
         android:text="Dial a Number"
         android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+    <Button
+        android:id="@+id/btn_move_for_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pindah Activity untuk Result"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:text="Hasil"/>
 
 </android.support.v7.widget.LinearLayoutCompat>
